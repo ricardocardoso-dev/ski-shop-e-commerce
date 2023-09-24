@@ -24,3 +24,18 @@ Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop sk
 - ![.NET Version](https://img.shields.io/badge/CSharp-11.0-purple)
 - ![Microsoft.EntityFrameworkCore.Sqlite](https://img.shields.io/badge/Sqlite-7.0.9-purple)
 - ![Swashbuckle.AspNetCore](https://img.shields.io/badge/Swashbuckle-6.5.0-purple)
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive open-source license that allows you to use, modify, and distribute this software for both commercial and non-commercial purposes. You should include the full text of the MIT License in a file named `LICENSE` in your repository.
