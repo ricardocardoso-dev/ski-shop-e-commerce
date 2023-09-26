@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/products";
 import agent from "../../app/api/agent";
+import NotFound from "../../app/errors/NotFound";
+import LoadingComponent from "../../app/layout/LoadingComponent";
 
 export default function ProductDetails() {
   const { id } = useParams<{ id: string }>();
@@ -10,16 +12,15 @@ export default function ProductDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-      // .get(`http://localhost:5089/api/products/${id}`)
        id && agent.Catalog.details(parseInt(id))
                   .then((response) => setProduct(response))
                   .catch((error) => console.log(error))
                   .finally(() => setLoading(false));
               }, []);
 
-  if (loading) return <h3>Loading...</h3>;
+  if (loading) return <LoadingComponent message="Loading product..." />
 
-  if (!product) return <h3>Product not found</h3>;
+  if (!product) return <NotFound />
 
   return (
     <Grid container spacing={6}>
