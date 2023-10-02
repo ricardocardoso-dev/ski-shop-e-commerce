@@ -7,6 +7,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/ricardocardoso-dev/ski-shop-e-commerce?color=brightgreen)](https://github.com/ricardocardoso-dev/ski-shop-e-commerce/commits/main)
 ![Lines of code](https://tokei.rs/b1/github/ricardocardoso-dev/ski-shop-e-commerce?category=code)
 ![Files](https://tokei.rs/b1/github/ricardocardoso-dev/ski-shop-e-commerce?category=files)
+[![wakatime](https://wakatime.com/badge/user/957be417-f277-4ae4-a449-e6bc5785d785/project/5f5f577b-e883-45af-b0ee-f72f4d4fef38.svg)](https://wakatime.com/badge/user/957be417-f277-4ae4-a449-e6bc5785d785/project/5f5f577b-e883-45af-b0ee-f72f4d4fef38)
 
 Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop ski equipment and accessories.
 
