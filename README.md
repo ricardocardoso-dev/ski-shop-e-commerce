@@ -11,6 +11,9 @@
 
 Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop ski equipment and accessories.
 
+## Preview
+![sky-shop](https://github.com/ricardocardoso-dev/ski-shop-e-commerce/assets/34285579/6a9d5bf8-8062-4342-a41b-ddbbf9b9d6ab)
+
 ## Technologies Used
 
 <h3>Front-End</h3>  
