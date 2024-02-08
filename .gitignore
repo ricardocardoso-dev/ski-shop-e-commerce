@@ -1,1 +1,38 @@
 ReStore/api/appsettings.json
+
+# Generated build files
+bin/
+obj/
+
+# NuGet dependency files
+*.nuget.props
+*.paket.props
+*.paket.targets
+packages/
+*.nupkg
+# If you are using Paket as package manager, also add:
+.paket/
+
+# Test result files
+TestResults/
+
+# Cache and log files
+*.log
+*.vscode/
+.vs/
+
+# Temporary files
+[Tt]emp/
+[Tt]est[Rr]esults/
+
+# IDE-specific configuration files
+*.suo
+*.user
+*.sln.docstates
+
+# Editor-specific configuration files
+*.vscode/
+
+# Project-specific configuration files
+*.idea/
+*.vs/

@@ -3,35 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace api.Entities
+namespace api.Entities;
+
+public class Basket
 {
-    public class Basket
+    public int Id { get; set; }
+
+    public string BuyerId { get; set; }
+
+    public List<BasketItem> Items { get; set; } = new();
+
+    public Basket() { }
+
+    public void AddItem(Product product, int quantity)
     {
-        public int Id { get; set; }
-        
-        public string BuyerId { get; set; }
+        if (Items.TrueForAll(item => item.ProductId != product.Id))
+            Items.Add(new BasketItem { Product = product, Quantity = quantity });
 
-        public List<BasketItem> Items { get; set; } = new();
+        var existingItem = Items.Find(item => item.ProductId == product.Id);
+        if (existingItem != null)
+            existingItem.Quantity += quantity;
+    }
 
-        public void AddItem(Product product, int quantity){
-            
-            if(Items.TrueForAll(item => item.ProductId != product.Id))
-                Items.Add(new BasketItem { Product = product, Quantity = quantity});
-            
+    public void RemoveItem(int productId, int quantity)
+    {
+        var item = Items.Find(item => item.ProductId == productId);
+        if (item == null)
+            return;
 
-            var existingItem = Items.Find(item=> item.ProductId == product.Id);
-            if(existingItem != null) 
-                existingItem.Quantity += quantity;
-        }
-
-        public void RemoveItem(int productId, int quantity){
-            var item = Items.Find(item=> item.ProductId == productId);
-            if(item == null) return;
+        if (quantity <= item.Quantity)
             item.Quantity -= quantity;
 
-            if(item.Quantity == 0) Items.Remove(item);
-
-        }
-    
+        if (item.Quantity == 0)
+            Items.Remove(item);
     }
 }

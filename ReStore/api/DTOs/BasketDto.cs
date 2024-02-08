@@ -4,13 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using api.Entities;
 
-namespace api.DTOs
+namespace api.DTOs;
+
+public class BasketDto
 {
-    public class BasketDto
-    {
-        public int Id { get; set; }
-        public string BuyerId { get; set; }
-        public List<BasketItemDto> Items { get; set; }
-        
-    }
+    public int Id { get; set; }
+    public string BuyerId { get; set; }
+    public List<BasketItemDto> Items { get; set; }
 }
