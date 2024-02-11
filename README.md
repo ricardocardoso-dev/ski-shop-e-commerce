@@ -11,11 +11,19 @@
 
 Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop ski equipment and accessories.
 
-## Preview (updated 03/10/2023)
+## Preview 
 ![sky-shop](https://github.com/ricardocardoso-dev/ski-shop-e-commerce/assets/34285579/6a9d5bf8-8062-4342-a41b-ddbbf9b9d6ab)
 
 ## Technologies Used
 
+<h3>Back-End</h3>  
+
+- ![.NET Version](https://img.shields.io/badge/.NET_Core-8.0-purple)
+- ![.NET Version](https://img.shields.io/badge/CSharp-12.0-purple)
+- ![.NET Version](https://img.shields.io/badge/EF_Core-8.0.1-purple)
+- ![Microsoft.EntityFrameworkCore.Sqlite](https://img.shields.io/badge/EF_Sqlite-8.0.1-purple)
+- ![Swashbuckle.AspNetCore](https://img.shields.io/badge/Swashbuckle_Swagger-6.5.0-darkgreen)
+  
 <h3>Front-End</h3>  
 
 - ![React](https://img.shields.io/badge/React-18.2.0-blue)
@@ -24,14 +32,6 @@ Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop sk
 - ![Material-UI](https://img.shields.io/badge/Material--UI-5.14.4-blue)
 - ![Axios](https://img.shields.io/badge/Axios-1.5.0-blue)
 - ![ReactToastify](https://img.shields.io/badge/React_Toastify-9.1.3-blue)
-
-<h3>Back-End</h3>  
-
-- ![.NET Version](https://img.shields.io/badge/.NET_Core-7.0-purple)
-- ![.NET Version](https://img.shields.io/badge/CSharp-11.0-purple)
-- ![.NET Version](https://img.shields.io/badge/EF_Core-7.0.9-purple)
-- ![Microsoft.EntityFrameworkCore.Sqlite](https://img.shields.io/badge/EF_Sqlite-7.0.9-purple)
-- ![Swashbuckle.AspNetCore](https://img.shields.io/badge/Swashbuckle_Swagger-6.5.0-darkgreen)
 
 ## Contributing
 
