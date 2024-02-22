@@ -28,6 +28,7 @@ Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop sk
 
 - ![React](https://img.shields.io/badge/React-18.2.0-blue)
 - ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)
+- ![React-Redux](https://img.shields.io/badge/React--Redux-9.1.0-blue)
 - ![React Router Dom](https://img.shields.io/badge/React%20Router%20Dom-6.16.0-blue)
 - ![Material-UI](https://img.shields.io/badge/Material--UI-5.14.4-blue)
 - ![Axios](https://img.shields.io/badge/Axios-1.5.0-blue)
