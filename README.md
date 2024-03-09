@@ -21,6 +21,8 @@ Ski Shop E-Commerce is an project of online store for ski enthusiasts to shop sk
 - ![.NET Version](https://img.shields.io/badge/.NET_Core-8.0-purple)
 - ![.NET Version](https://img.shields.io/badge/CSharp-12.0-purple)
 - ![.NET Version](https://img.shields.io/badge/EF_Core-8.0.1-purple)
+- ![.NET Version](https://img.shields.io/badge/MS_Identity-8.0.2-purple)
+- ![.NET Version](https://img.shields.io/badge/JWT_Bearer-8.0.2-purple)
 - ![Microsoft.EntityFrameworkCore.Sqlite](https://img.shields.io/badge/EF_Sqlite-8.0.1-purple)
 - ![Swashbuckle.AspNetCore](https://img.shields.io/badge/Swashbuckle_Swagger-6.5.0-darkgreen)
   
